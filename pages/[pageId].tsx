@@ -41,7 +41,6 @@ export async function getStaticPaths() {
   // set paths to an empty array to not pre-generate any pages at build time.
   const pages = await getAllPagesInSpace(
     rootNotionPageId,
-    rootNotionSpaceId,
     notion.getPage.bind(notion),
     {
       traverseCollections: false
