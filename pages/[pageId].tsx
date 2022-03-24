@@ -8,7 +8,6 @@ import * as notion from '../lib/notion'
 import { NotionPage } from '../components/NotionPage'
 import {
   rootNotionPageId,
-  rootNotionSpaceId,
   rootDomain,
   isDev,
   previewImagesEnabled
